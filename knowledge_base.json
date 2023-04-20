@@ -1,0 +1,44 @@
+{
+    "businessInfo": {
+      "name": "Elite Clothing",
+      "location": "123 Fashion Street, New York, NY 10001",
+      "description": "Elite Clothing is a high-end fashion brand offering exclusive, luxury clothing and accessories for style-conscious customers. Our mission is to provide top-quality products crafted with the finest materials and a commitment to excellent customer service.",
+      "industry": "Fashion & Apparel",
+      "openingHours": {
+        "monday": "10:00 AM - 8:00 PM",
+        "tuesday": "10:00 AM - 8:00 PM",
+        "wednesday": "10:00 AM - 8:00 PM",
+        "thursday": "10:00 AM - 8:00 PM",
+        "friday": "10:00 AM - 8:00 PM",
+        "saturday": "10:00 AM - 8:00 PM",
+        "sunday": "12:00 PM - 6:00 PM"
+      }
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Elegant Silk Dress",
+        "price": 500,
+        "currency": "USD",
+        "category": "Dresses",
+        "description": "A luxurious silk dress perfect for special occasions."
+      },
+      {
+        "id": 2,
+        "name": "Stylish Leather Jacket",
+        "price": 700,
+        "currency": "USD",
+        "category": "Jackets",
+        "description": "A premium leather jacket with a fashionable design."
+      },
+      {
+        "id": 3,
+        "name": "Classic Cashmere Sweater",
+        "price": 350,
+        "currency": "USD",
+        "category": "Sweaters",
+        "description": "A cozy and comfortable cashmere sweater in a timeless style."
+      }
+    ]
+  }
+  
