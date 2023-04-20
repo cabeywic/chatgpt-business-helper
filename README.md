@@ -4,7 +4,10 @@ A platform that allows businesses to connect their Instagram/Facebook accounts a
 
 ## Getting Started
 
-1. Clone the repository: git clone https://github.com/yourusername/chatgpt-business-helper.git
+1. Clone the repository: 
+```bash
+git clone https://github.com/cabeywic/chatgpt-business-helper
+```
 
 2. Navigate to the project directory:
 ```bash
