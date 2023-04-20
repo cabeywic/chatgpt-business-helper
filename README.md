@@ -47,6 +47,30 @@ The server will start running on the default port 3000 or the port specified in 
 
 4. Include the full message history when making a request to the `/ask` endpoint, so that the ChatGPT API can generate responses based on prior exchanges.
 
+```yaml
+{
+    "messages": 
+    [
+        {
+        "role": "system",
+        "content": "You are a virtual assistant for Elite Clothing, a high-end fashion brand. You can provide information about the store location, opening hours, and the products they sell."
+        },
+        {
+        "role": "customer",
+        "content": "What are your store opening hours?"
+        },
+        {
+        "role": "business",
+        "content": "Our store opening hours are as follows: Monday to Saturday, 10:00 AM to 8:00 PM, and Sunday, 12:00 PM to 6:00 PM."
+        },
+        {
+        "role": "customer",
+        "content": "What kind of products do you sell?"
+        }
+    ]
+}
+```
+
 ## License
 
 This project is licensed under the MIT License 
